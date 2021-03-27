@@ -7,27 +7,83 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    
+    body {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      background-color: hsl(257, 40%, 49%);
+      color: white;
+      background-image: url("./images/bg-desktop.svg");
+      min-height: 100%;
+      
+      
+    }
+    .text {
+      margin-right: 25px;
+      margin-top: 232px;
+      margin-left: 835px;
+      height: 225px;
+      width: 520px;
+      line-height: 1.5;
+      font-family: poppins;
+      position: absolute;
+      
+      
+    
+    }
+    
+    
+    .register {
+      margin-left: 835px;
+      border: solid white;
+      background-color: white;
+      color: hsl(257, 40%, 49%);
+      border-radius: 30px;
+      width: 200px;
+      height: 56px;
+      text-align: center;
+      margin-top: 481px;
+      position: absolute;
+      
+      
+    }
+    .stat-image {
+      margin-top: 200px;
+      margin-left: 80px;
+      position: absolute;
+      width: 696px;
+      height: 493px;
+    }
+    .huddle-logo {
+      padding-top: 60px;
+      margin-left: 80px;
+    }
   </style>
 </head>
 <body>
+  <div class="stat-image">
+    <img src="./images/illustration-mockups.svg">
+  </div>
+<div class="text">
+  <h1>Build The Community Your Fans Will Love</h1>
 
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
+  <span>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+  Create connections with your users as you engage in genuine discussion.</span>
+</div>
+<div class="register">
   Register
+</div>
+<div class="huddle-logo">
+  <img src="./images/logo.svg">
+</div>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+  
 </body>
 </html>
