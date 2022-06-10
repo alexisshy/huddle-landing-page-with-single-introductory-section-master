@@ -10,10 +10,27 @@ body {
     background-repeat: no-repeat;
 }
 
+h1 {
+    font-size: 40px;
+    margin-right: 118px;
+    padding-left: 59px;
+}
+
+
+.huddle-text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 100px;
+    padding-left: 59px;
+}
 .huddle-logo {
     padding-bottom: 100px;
     margin-top: 50px;
     margin-left: 80px;
+}
+
+.content {
+    display: flex;
 }
 
 .text-box {
@@ -34,7 +51,7 @@ button {
     background-color: white;
     border-radius: 50px;
     border: none;
-    color: hsl(257, 40%, 49%);;
+    color: hsl(257, 40%, 49%);
     padding: 20px 40px;
 
 }
@@ -43,4 +60,17 @@ button {
     display: flex;
     flex-direction: row;
     padding-left: 16px;
+}
+
+.fab fa-facebook {
+    
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .stat-image {
+         max-width: 50%;
+    }
+    .content {
+        flex-direction: column;
+    }
 }
