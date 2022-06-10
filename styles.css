@@ -9,3 +9,38 @@ body {
     background-image: url("./images/bg-desktop.svg");
     background-repeat: no-repeat;
 }
+
+.huddle-logo {
+    padding-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.text-box {
+    
+}
+
+.stat-image {
+    margin-left: 80px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button {
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    color: hsl(257, 40%, 49%);;
+    padding: 20px 40px;
+
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    padding-left: 16px;
+}
